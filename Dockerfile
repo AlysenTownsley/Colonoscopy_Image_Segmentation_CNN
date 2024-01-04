@@ -1,4 +1,4 @@
-# Dockerfile for required software dependencies.
+# Dockerfile for required software dependencies
 
 FROM quay.io/jupyter/pytorch-notebook:2023-12-25
 
