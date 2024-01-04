@@ -1,0 +1,12 @@
+services:
+  col-img-seg-cnn:
+    image: alysentownsley/col-img-seg-cnn:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
+    deploy:
+      resources:
+        limits:
+          memory: 10G
+    platform: linux/amd64 # For Mac M1/M2 chips
