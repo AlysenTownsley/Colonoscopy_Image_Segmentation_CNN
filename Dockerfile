@@ -1,3 +1,5 @@
+# Dockerfile for required software dependencies
+
 FROM quay.io/jupyter/pytorch-notebook:2023-12-25
 
 RUN conda install -y \
